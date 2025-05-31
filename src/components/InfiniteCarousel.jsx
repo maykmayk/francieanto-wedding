@@ -91,11 +91,11 @@ const InfiniteCarousel = ({ variant = "1", imagesArray = [] }) => {
           style={{ minWidth: '100%' }}
         >
           {[...imagesToRender, ...imagesToRender].map((image, index) => (
-            <div key={index} className="min-w-[300px] mx-4 shrink-0" >
+            <div key={index} className="w-[80vw] mx-4 shrink-0 aspect-[6/4] rounded-lg overflow-hidden shadow-md">
               <img
                 src={image}
                 alt={`Wedding photo`}
-                className="rounded-lg shadow-md w-full h-[200px] object-cover"
+                className="w-full h-full object-cover"
                 loading="lazy"
               />
             </div>
