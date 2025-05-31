@@ -32,7 +32,7 @@ const Hero = () => {
   return (
     <section id="hero" className="md:h-screen h-[70vh] bg-hero-pattern bg-cover bg-center flex items-end justify-center relative overflow-hidden">
       <div className="relative w-full h-full">
-        <img className="absolute w-full h-full object-cover" src="/public/hero_back.png" />
+        <img className="absolute w-full h-full object-cover" src="/hero_back.png" />
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       </div>
 
