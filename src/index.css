@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'custom';
+  src: url('/fonts/le-grand-capital.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  @apply bg-cream text-charcoal font-montserrat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'custom', sans-serif;
+  line-height: 1.25;
+}
+
+.container {
+  @apply px-4 md:px-6 lg:px-8 mx-auto max-w-7xl;
+}
+
+.section {
+  @apply py-16 md:py-24;
+}
+
+.btn {
+  @apply font-montserrat px-6 py-2 rounded-md transition-all duration-300 inline-block text-center;
+}
+
+.btn-primary {
+  @apply bg-sage text-white hover:bg-sage-dark;
+}
+
+.btn-secondary {
+  @apply bg-transparent border border-sage text-sage hover:bg-sage hover:text-white;
+}
+
+.nav-link {
+  @apply text-cream hover:text-white transition-colors duration-300 relative;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute bottom-[-4px] left-0 w-0 h-[2px] bg-white transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.nav-link.active::after {
+  @apply w-full;
+}
+
+.scrolled {
+  @apply bg-sage shadow-md;
+}
+
+/* Animated underline for headings */
+.animated-underline {
+  @apply relative inline-block;
+}
+
+.animated-underline::after {
+  content: '';
+  @apply absolute bottom-[-8px] left-1/2 w-0 h-[1px] bg-sage transition-all duration-500 transform -translate-x-1/2;
+}
+
+.animated-underline:hover::after {
+  @apply w-3/4;
+}
+
+/* Timeline design */
+.timeline-item {
+  @apply relative pl-8 pb-8 border-l border-sage ml-6;
+}
+
+.timeline-item::before {
+  content: '';
+  @apply absolute left-[-6px] top-0 w-3 h-3 rounded-full bg-sage;
+}
+
+.timeline-item:last-child {
+  @apply border-l-0;
+}
+
+@layer utilities {
+  .noScrollBar {
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+  }
+
+  .noScrollBar::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+  }
+
+  .z-60 {
+    z-index: 60;
+  }
+
+  .noPb {
+    padding-bottom: 0 !important;
+  }
+}
