@@ -46,7 +46,7 @@ const Hero = () => {
           {/* <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light mb-2">
             Francesca & Antonio
           </h1> */}
-          <div className="flex flex-col md:flex-row justify-center w-full items-center md:gap-1">
+          <div className="flex flex-col md:flex-row justify-center w-full items-center md:gap-1 scale-125">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light md:mb-2">
               Francesca
             </h1>
