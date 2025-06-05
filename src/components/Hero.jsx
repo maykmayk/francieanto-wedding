@@ -46,12 +46,12 @@ const Hero = () => {
           {/* <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light mb-2">
             Francesca & Antonio
           </h1> */}
-          <div className="flex justify-center w-full items-center gap-1">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light mb-2">
+          <div className="flex flex-col md:flex-row justify-center w-full items-center md:gap-1">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light md:mb-2">
               Francesca
             </h1>
-            <img className='w-16' src="/e.png" alt="and" />
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light mb-2">
+            <img className='w-10 md:w-16' src="/e.png" alt="and" />
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light md:mb-2 mb-8">
               Antonio
             </h1>
           </div>
