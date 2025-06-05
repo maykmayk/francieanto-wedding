@@ -12,6 +12,7 @@ import { motion } from 'framer-motion'
 import Ceremony from './components/Ceremony'
 import Ricevimento from './components/Ricevimento'
 import ViaggiodiNozze from './components/ViaggiodiNozze'
+import Citazione from './components/Citazione'
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -30,6 +31,7 @@ function App() {
       <Navbar />
       <main className='noScrollBar'>
         <Hero />
+        <Citazione />
         <Ceremony />
         <Ricevimento />
         <About />

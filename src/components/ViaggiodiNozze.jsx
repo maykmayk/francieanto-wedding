@@ -26,13 +26,18 @@ export default function ViaggiodiNozze() {
     }
 
     const myVariant2Images = [
-        "https://viaggisicuri.com/wp-content/uploads/2024/03/Foto-articolo-zanzibar-1-1920x1080.jpg.webp",
-        "https://static.alpitour.it/dam/jcr:95f4fcd0-8c2d-449c-8439-b60d2c38e74f/g_05_zanzibar_spiaggia_jambiani_1900x1070.jpg",
-        "https://images.lonelyplanetitalia.it/uploads/gettyrf-1136453253?q=80&p=slider&s=648193453c76e2eb78327a3a9eb2ed4d",
-        "https://cdn-ildhbcd.nitrocdn.com/ZCWyroguFIUDJEMIpXkwbpTdiUIsRljU/assets/images/optimized/rev-e3cff24/cdn.atrsafari.com/cdn/05explore/locations-and-lodges/africa/tanzania/zanzibar/0/stills/00page/01TC30-IM0201-zanzibar-safari-1560.jpg",
-        "https://www.imaway.it/wp-content/webp-express/webp-images/uploads/2022/11/idee-viaggio-zanzibar.jpg.webp",
-        "https://cdn.getyourguide.com/img/tour/4d40c30de06d1425.jpeg/99.jpg",
-        "https://www.viaggimanuzzi.it/wp-content/uploads/2015/02/wooden-fishing-ship-white-sand-beach-low-tide-indian-ocean-zanzibar-tanzania-1.jpg"
+        "/public/zanzibar/zanzibar_1.jpeg",
+        "/public/zanzibar/zanzibar_2.jpeg",
+        "/public/zanzibar/zanzibar_3.jpeg",
+        "/public/zanzibar/zanzibar_4.jpeg",
+        "/public/zanzibar/zanzibar_5.jpeg",
+        "/public/zanzibar/zanzibar_6.jpeg",
+        "/public/zanzibar/zanzibar_7.jpeg",
+        "/public/zanzibar/zanzibar_8.jpeg",
+        "/public/zanzibar/zanzibar_9.jpeg",
+        "/public/zanzibar/zanzibar_10.jpeg",
+        "/public/zanzibar/zanzibar_11.jpeg",
+        "/public/zanzibar/zanzibar_12.jpeg"
     ]
 
 

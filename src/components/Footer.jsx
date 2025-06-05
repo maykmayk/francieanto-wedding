@@ -1,15 +1,11 @@
 import { FaHeart, FaInstagram, FaFacebook } from 'react-icons/fa'
-import { Link } from 'react-scroll'
-
 const Footer = () => {
-  const currentYear = new Date().getFullYear()
-
   return (
     <footer className="bg-sage text-white py-12">
       <div className="container">
         <div className="text-center mb-8">
           <h2 className="font-custom text-3xl mb-2">Francesca & Antonio</h2>
-          <p className="text-cream text-opacity-80 font-light">4 Ottobre 2025 • Milano, Italia</p>
+          <p className="text-cream text-opacity-80 font-light">4 Ottobre 2025</p>
         </div>
         
         <div className="flex justify-center space-x-6 mb-8">

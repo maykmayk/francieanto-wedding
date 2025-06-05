@@ -43,11 +43,20 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className="text-cream"
         >
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light mb-2">
+          {/* <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light mb-2">
             Francesca & Antonio
-          </h1>
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-custom italic mb-6 tracking-wider">
-            4 Ottobre 2025 • Milano, Italia
+          </h1> */}
+          <div className="flex justify-center w-full items-center gap-1">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light mb-2">
+              Francesca
+            </h1>
+            <img className='w-16' src="public/e.png" alt="and" />
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light mb-2">
+              Antonio
+            </h1>
+          </div>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-custom mb-6 tracking-wider">
+            4 Ottobre 2025
           </h2>
 
           <div className="w-24 h-[1px] bg-cream mx-auto my-8"></div>

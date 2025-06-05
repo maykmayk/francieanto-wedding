@@ -52,7 +52,8 @@ const Navbar = () => {
           duration={500}
           className="text-cream font-custom text-3xl cursor-pointer"
         >
-          F & A
+          {/* F & A */}
+          <img src="public/fea.png" alt="Francesca & Antonio" className="w-16" />
         </Link>
 
         {/* Desktop Navigation */}
