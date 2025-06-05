@@ -47,7 +47,7 @@ const Rsvp = () => {
           <div className='flex justify-center'></div>
           <button className='w-full btn btn-primary mb-8'>
             <a
-              href="https://docs.google.com/forms/d/e/IL_TUO_LINK_DI_GOOGLE_FORM/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSefwfWH2eGgC50CTDqK2bnn0I5Lvjokxo0I3-BlBKJpXuYVug/viewform?usp=dialog"
               target="_blank"
               rel="noopener noreferrer"
               className=""
