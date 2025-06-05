@@ -26,18 +26,18 @@ export default function ViaggiodiNozze() {
     }
 
     const myVariant2Images = [
-        "/public/zanzibar/zanzibar_1.jpeg",
-        "/public/zanzibar/zanzibar_2.jpeg",
-        "/public/zanzibar/zanzibar_3.jpeg",
-        "/public/zanzibar/zanzibar_4.jpeg",
-        "/public/zanzibar/zanzibar_5.jpeg",
-        "/public/zanzibar/zanzibar_6.jpeg",
-        "/public/zanzibar/zanzibar_7.jpeg",
-        "/public/zanzibar/zanzibar_8.jpeg",
-        "/public/zanzibar/zanzibar_9.jpeg",
-        "/public/zanzibar/zanzibar_10.jpeg",
-        "/public/zanzibar/zanzibar_11.jpeg",
-        "/public/zanzibar/zanzibar_12.jpeg"
+        "/zanzibar/zanzibar_1.jpeg",
+        "/zanzibar/zanzibar_2.jpeg",
+        "/zanzibar/zanzibar_3.jpeg",
+        "/zanzibar/zanzibar_4.jpeg",
+        "/zanzibar/zanzibar_5.jpeg",
+        "/zanzibar/zanzibar_6.jpeg",
+        "/zanzibar/zanzibar_7.jpeg",
+        "/zanzibar/zanzibar_8.jpeg",
+        "/zanzibar/zanzibar_9.jpeg",
+        "/zanzibar/zanzibar_10.jpeg",
+        "/zanzibar/zanzibar_11.jpeg",
+        "/zanzibar/zanzibar_12.jpeg"
     ]
 
 

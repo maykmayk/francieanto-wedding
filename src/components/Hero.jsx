@@ -50,7 +50,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light mb-2">
               Francesca
             </h1>
-            <img className='w-16' src="public/e.png" alt="and" />
+            <img className='w-16' src="/e.png" alt="and" />
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-custom font-light mb-2">
               Antonio
             </h1>
