@@ -36,8 +36,7 @@ export default function Ceremony() {
                 >
                     <h2 className="text-4xl md:text-5xl font-custom mb-4 text-charcoal">Cerimonia</h2>
                     <p className="text-charcoal-light mb-8 max-w-2xl mx-auto">
-                        Celebreremo il nostro Matrimonio alle ore 11.00 presso la Chiesa Parrocchiale della Beata Vergine
-                        Immacolata e S. Antonio, a Milano, più comunemente chiamata Kolbe!
+                        Celebreremo il nostro Matrimonio alle ore 11.00 presso la Chiesa Parrocchiale della Beata Vergine Immacolata e S. Antonio, a Milano, più comunemente chiamata Kolbe!
                     </p>
 
                     <div className="relative w-full h-64 mb-8 rounded-lg shadow-md overflow-hidden">
@@ -63,10 +62,9 @@ export default function Ceremony() {
                     </div>
 
                     <p className='text-charcoal-light mt-8 max-w-2xl mx-auto'>
-                        Ci teniamo alla vostra puntualità! Per questo, qualora non troviate parcheggio, vi suggeriamo di
-                        dirigervi verso i parcheggi coperti a pagamento nella zona. 🅿<br />
-                        ⚠ Con qualche minuto di ritardo potreste incontrare una Franci sposa uscire dal portone di casa,
-                        attraversare la strada e dirigersi verso l’ingresso della chiesa… Non tardate!
+                        Ci teniamo alla vostra puntualità! Per questo, qualora non troviate parcheggio, vi suggeriamo di dirigervi verso i parcheggi coperti a pagamento nella zona. 🅿️
+
+                        Con qualche minuto di ritardo potreste incontrare una Franci sposa uscire dal portone di casa, attraversare la strada e dirigersi verso l’ingresso della chiesa… Non tardate! 🙈
                     </p>
                 </motion.div>
             </div>

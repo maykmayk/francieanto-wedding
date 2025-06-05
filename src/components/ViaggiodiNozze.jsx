@@ -56,10 +56,8 @@ export default function ViaggiodiNozze() {
                         Il giorno dopo il nostro Matrimonio partiremo per una meta a dir poco esotica: Zanzibar!
                         L’importante è che non ci siano le onde da surfare!! (Franci)
                         Scherziamo, un po’ di onde ci sono, vabbè! 🌊
-                        Ci attendono giornate all’insegna dell’esplorazione tra acque cristalline e foreste tropicali, alla
-                        scoperta di animali rari e sapori inediti. Non ci faremo mancare momenti di meritato relax, e
-                        torneremo arricchiti da una cultura che ci affascina molto!<br />Se desiderate accompagnarci simbolicamente in questo viaggio, potete contribuire effettuando un
-                        bonifico all’IBAN qui sotto. Grazie, davvero!! 🏖
+                        Ci attendono giornate all’insegna dell’esplorazione tra acque cristalline e foreste tropicali, alla scoperta di animali rari e sapori inediti. Oltre alla scoperta della cultura zanzibarina e della produzione di spezie, non ci faremo certo mancare momenti di meritato relax!
+
                     </p>
                     <div className="bg-cream p-4 rounded-md inline-block text-center">
                         <p className="font-medium">Intestatari: Antonio Scaglioni</p>

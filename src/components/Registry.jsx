@@ -56,11 +56,10 @@ const Registry = () => {
           <h2 className="text-4xl md:text-5xl font-custom mb-4 text-charcoal">Lista Nozze</h2>
           <p className="text-charcoal-light mb-12 max-w-2xl mx-auto">
             Un passo grande che abbiamo fatto quest’anno è stato comprare una casa!
-            L’involucro c’è, e piano piano lo riempiremo di ricordi e momenti trascorsi insieme. Non vediamo
-            l’ora di invitarvi! 🍳<br />
-            Se desiderate aiutarci a costruire la nostra casa, abbiamo preparato una lista nozze su Amazon
-            con alcuni prodotti che ci potrebbero servire.
-            Basta un click per acquistare il prodotto e ci arriverà direttamente a casa! TOP!!
+            L’involucro c’è, e piano piano lo riempiremo di ricordi e momenti trascorsi insieme. Non vediamo l’ora di invitarvi! 🍳<br />
+
+            Se desiderate aiutarci a costruire la nostra casa, abbiamo preparato una lista nozze su Amazon con alcuni prodotti che ci potrebbero servire.
+            Il prodotto acquistato ci arriverà direttamente a casa! TOP!!
           </p>
 
           <button className='btn btn-primary '>
@@ -81,12 +80,11 @@ const Registry = () => {
               className="mt-16"
             >
               <p className="text-charcoal-light mb-4">
-                In alternativa, se desiderate contribuire all’acquisto di elettrodomestici o arredi più ingombranti, vi
-                lasciamo qui sotto l’IBAN a cui poter effettuare un bonifico. Grazie di cuore!! 🏠
+                In alternativa, se desiderate contribuire all’acquisto di elettrodomestici o arredi più ingombranti, vi lasciamo qui sotto l’IBAN a cui poter effettuare un bonifico. Grazie di cuore!! 🏠
               </p>
               <div className="bg-cream p-4 rounded-md inline-block text-center">
-                <p className="font-medium">Intestatari: Antonio Scaglioni</p>
-                <p>IBAN: IT12O0306911510100000064140</p>
+                <p className="font-medium">Intestatari: Francesca de Vita</p>
+                <p>IBAN: IT84P0301503200000006368761</p>
                 <p>Causale: Regalo di nozze + [Vostro Nome]</p>
               </div>
             </motion.div>
