@@ -52,10 +52,12 @@ export default function ViaggiodiNozze() {
                     className="max-w-4xl mx-auto text-center"
                 >
                     <h2 className="text-4xl md:text-5xl font-custom mb-4 text-charcoal">Viaggio di Nozze</h2>
-                    <p className="text-charcoal-light mb-8 max-w-2xl mx-auto">
+                    <p className="text-charcoal-light mb-6 max-w-2xl mx-auto">
                         Il giorno dopo il nostro Matrimonio partiremo per una meta a dir poco esotica: Zanzibar!
                         L’importante è che non ci siano le onde da surfare!! (Franci)
                         Scherziamo, un po’ di onde ci sono, vabbè! 🌊
+                    </p>
+                    <p className="text-charcoal-light mb-6 max-w-2xl mx-auto">
                         Ci attendono giornate all’insegna dell’esplorazione tra acque cristalline e foreste tropicali, alla scoperta di animali rari e sapori inediti. Oltre alla scoperta della cultura zanzibarina e della produzione di spezie, non ci faremo certo mancare momenti di meritato relax!
 
                     </p>
@@ -69,6 +71,6 @@ export default function ViaggiodiNozze() {
             </div>
             <InfiniteCarousel variant="2" imagesArray={myVariant2Images} />
 
-        </section>
+        </section >
     )
 }

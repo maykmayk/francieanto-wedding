@@ -38,10 +38,11 @@ const Rsvp = () => {
             RSVP
           </h2>
 
-          <p className="text-center text-charcoal-light mb-12 max-w-2xl mx-auto">
-            Fateci sapere se ci sarete rispondendo al seguente modulo entro il mese di Agosto, così possiamo prepararvi un bel tavolo per pranzo 😎
+          <p className="text-center text-charcoal-light mb-6 max-w-2xl mx-auto">
+            Fateci sapere se ci sarete rispondendo al seguente modulo entro il mese di Agosto, così da prepararvi un bel tavolo per pranzo 😎
+          </p>
+          <p className="text-center text-charcoal-light mb-6 max-w-2xl mx-auto">
             Vi chiediamo di compilarne più di uno, se rispondete anche per i vostri familiari.
-
           </p>
 
           <div className='flex justify-center'></div>
@@ -55,7 +56,7 @@ const Rsvp = () => {
               Compila il modulo
             </a>
           </button>
-          <p className="text-center text-charcoal-light mb-12 max-w-2xl mx-auto">
+          <p className="text-center text-charcoal-light max-w-2xl mx-auto">
             Vi aspettiamo e non vediamo l’ora!! 🤍
           </p>
         </motion.div>

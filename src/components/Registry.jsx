@@ -54,10 +54,12 @@ const Registry = () => {
           className="max-w-4xl mx-auto text-center"
         >
           <h2 className="text-4xl md:text-5xl font-custom mb-4 text-charcoal">Lista Nozze</h2>
-          <p className="text-charcoal-light mb-12 max-w-2xl mx-auto">
+          <p className="text-charcoal-light mb-6 max-w-2xl mx-auto">
             Un passo grande che abbiamo fatto quest’anno è stato comprare una casa!
-            L’involucro c’è, e piano piano lo riempiremo di ricordi e momenti trascorsi insieme. Non vediamo l’ora di invitarvi! 🍳<br />
+            L’involucro c’è, e piano piano lo riempiremo di ricordi e momenti trascorsi insieme. Non vediamo l’ora di invitarvi! 🍳
+          </p>
 
+          <p className="text-charcoal-light mb-6 max-w-2xl mx-auto">
             Se desiderate aiutarci a costruire la nostra casa, abbiamo preparato una lista nozze su Amazon con alcuni prodotti che ci potrebbero servire.
             Il prodotto acquistato ci arriverà direttamente a casa! TOP!!
           </p>
@@ -77,7 +79,7 @@ const Registry = () => {
           >
             <motion.div
               variants={fadeIn}
-              className="mt-16"
+              className="mt-6"
             >
               <p className="text-charcoal-light mb-4">
                 In alternativa, se desiderate contribuire all’acquisto di elettrodomestici o arredi più ingombranti, vi lasciamo qui sotto l’IBAN a cui poter effettuare un bonifico. Grazie di cuore!! 🏠

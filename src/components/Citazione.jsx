@@ -7,12 +7,13 @@ export default function Citazione() {
 
     return (
         <section id="Citazione" className="section bg-sage bg-opacity-10">
-            <div className="container -py-12 text-center text-xl">
-                <p className="text-charcoal-light mb-8 max-w-2xl mx-auto italic">
+            <div className="container -py-12 text-center text-lg">
+                <p className="text-charcoal-light max-w-2xl mx-auto italic mb-6">
                     Questo è il paradosso dell'amore
                     fra un uomo e una donna:
                     due bisogni infiniti di essere amati si incontrano con due fragili e limitate capacità di amare.
-                    -
+                </p>
+                <p className="text-charcoal-light mb-6 max-w-2xl mx-auto italic">
                     E solo nell'orizzonte di un amore più grande non si consumano nella pretesa e non si rassegnano,
                     ma camminano insieme verso una pienezza della quale l'altro è segno.
                 </p>
@@ -21,6 +22,6 @@ export default function Citazione() {
                     Rainer Maria Rilke
                 </p>
             </div>
-        </section>
+        </section >
     )
 }
