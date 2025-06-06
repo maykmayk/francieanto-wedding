@@ -2,7 +2,7 @@ import { motion, useAnimationFrame } from 'framer-motion'
 import { useRef, useState, useEffect } from 'react'
 
 // Config: massimo numero immagini che vuoi supportare
-const maxCheckImages = 500
+const maxCheckImages = 52
 
 const generateImagePaths = () => {
   const images = []
