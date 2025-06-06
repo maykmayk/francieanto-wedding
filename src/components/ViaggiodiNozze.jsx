@@ -42,8 +42,8 @@ export default function ViaggiodiNozze() {
 
 
     return (
-        <section id="viaggio" className="section bg-white">
-            <div className="container">
+        <section id="viaggio" className="section noPb bg-white">
+            <div className="container ">
                 <motion.div
                     ref={ref}
                     initial="hidden"

@@ -17,14 +17,14 @@ const Footer = () => {
           <p className="text-cream text-opacity-80 font-light">4 Ottobre 2025</p>
         </div>
 
-        <div className="flex justify-center space-x-6 mb-8">
+        {/* <div className="flex justify-center space-x-6 mb-8">
           <a href="#" className="text-white hover:text-cream transition-colors duration-300">
             <FaInstagram size={24} />
           </a>
           <a href="#" className="text-white hover:text-cream transition-colors duration-300">
             <FaFacebook size={24} />
           </a>
-        </div>
+        </div> */}
 
         {/* <div className="max-w-md mx-auto mb-8">
           <nav>
@@ -93,9 +93,9 @@ const Footer = () => {
           </nav>
         </div> */}
 
-        <div className="text-center text-sm text-cream text-opacity-70">
+        <div className="text-center text-sm text-cream text-opacity-20 scale-50">
           <p className="flex items-center justify-center">
-            Creato con <FaHeart className="mx-1 text-red-400" /> da Mike
+            Creato con <FaHeart className="mx-1 text-white-400" /> da Mike
           </p>
         </div>
       </div>
