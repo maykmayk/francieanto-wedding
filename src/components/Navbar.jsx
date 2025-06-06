@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-scroll'
 import { motion } from 'framer-motion'
 import { FaBars, FaTimes } from 'react-icons/fa'
+import { Menu, X } from 'lucide-react'
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -83,7 +84,7 @@ const Navbar = () => {
           onClick={toggleMobileMenu}
           aria-label={mobileMenuOpen ? 'Chiudi menu' : 'Apri menu'}
         >
-          {mobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+          {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
         {/* Mobile Menu */}
@@ -94,6 +95,14 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3 }}
           >
+            {/* <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2">
+              <img src="/fea.png" alt="Francesca & Antonio" className="w-16" />
+            </div> */}
+
+            <div className="absolute top-4 left-4">
+              <img src="/fea.png" alt="Francesca & Antonio" className="w-16" />
+            </div>
+
             <ul className="flex flex-col space-y-6 text-center">
               {navLinks.map((link) => (
                 <motion.li

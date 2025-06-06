@@ -82,11 +82,11 @@ const Registry = () => {
               className="mt-6"
             >
               <p className="text-charcoal-light mb-4">
-                In alternativa, se desiderate contribuire all’acquisto di elettrodomestici o arredi più ingombranti, vi lasciamo qui sotto l’IBAN a cui poter effettuare un bonifico. Grazie di cuore!! 🏠
+                In alternativa, se desiderate contribuire all’acquisto di elettrodomestici o arredi più ingombranti, vi lasciamo qui sotto l’Iban a cui poter effettuare un bonifico. Grazie di cuore!! 🏠
               </p>
               <div className="bg-cream p-4 rounded-md inline-block text-center">
-                <p className="font-medium">Intestatari: Francesca de Vita</p>
-                <p>IBAN: IT84P0301503200000006368761</p>
+                <p className="">Intestatario: Francesca de Vita</p>
+                <p>Iban: IT84P0301503200000006368761</p>
                 <p>Causale: Regalo di nozze + [Vostro Nome]</p>
               </div>
             </motion.div>
