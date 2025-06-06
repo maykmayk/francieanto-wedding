@@ -61,12 +61,11 @@ export default function Ceremony() {
                         </div>
                     </div>
 
-                    <p className='text-charcoal-light mt-8 max-w-2xl mx-auto'>
-                        Ci teniamo alla vostra puntualità! Per questo, qualora non troviate parcheggio, vi suggeriamo di dirigervi verso i parcheggi coperti a pagamento nella zona. 🅿️
-                        </p>
                     <p className='text-charcoal-light mt-6 max-w-2xl mx-auto'>
-
                         Con qualche minuto di ritardo potreste incontrare una Franci sposa uscire dal portone di casa, attraversare la strada e dirigersi verso l’ingresso della chiesa… Non tardate! 🙈
+                    </p>
+                    <p className='text-charcoal-light mt-8 max-w-2xl mx-auto'>
+                        Qualora non troviate parcheggio, vi suggeriamo di dirigervi verso i parcheggi coperti della zona. 🅿️
                     </p>
                 </motion.div>
             </div>

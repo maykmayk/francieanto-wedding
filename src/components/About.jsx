@@ -28,6 +28,8 @@ const About = () => {
     }
   }
 
+  const galleryImages = Array.from({ length: 52 }, (_, i) => `/gallery/gallery_${i + 1}.jpeg`)
+
   return (
     <section id="about" className="section bg-white noPb">
       <div className="container">
@@ -61,8 +63,8 @@ const About = () => {
         </motion.div>
 
       </div>
-      <InfiniteCarousel />
-    </section>
+
+      <InfiniteCarousel imagesArray={galleryImages} />    </section>
   )
 }
 

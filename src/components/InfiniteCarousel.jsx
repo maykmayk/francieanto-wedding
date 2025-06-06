@@ -1,17 +1,7 @@
 import { motion, useAnimationFrame } from 'framer-motion'
 import { useRef, useState, useEffect } from 'react'
 
-// Config: massimo numero immagini che vuoi supportare
-const maxCheckImages = 52
-
-const generateImagePaths = () => {
-  const images = []
-  for (let i = 1; i <= maxCheckImages; i++) {
-    images.push(`/gallery/gallery_${i}.jpeg`)
-  }
-  return images
-}
-
+// Funzione per verificare se l'immagine esiste
 const checkImageExists = (src) => {
   return new Promise((resolve) => {
     const img = new Image()
@@ -21,53 +11,36 @@ const checkImageExists = (src) => {
   })
 }
 
-const InfiniteCarousel = ({ variant = "1", imagesArray = [] }) => {
+const InfiniteCarousel = ({ imagesArray }) => {
   const containerRef = useRef(null)
-  const [validImages, setValidImages] = useState([])
+  const [fixedImages, setFixedImages] = useState([])
   const [offsetX, setOffsetX] = useState(0)
-  const speed = 0.2 // controlla la velocità di scorrimento
+  const speed = 0.2
 
   useEffect(() => {
-    let isMounted = true
+    if (!imagesArray || imagesArray.length === 0) return
 
-    const loadImages = async () => {
-      let sources = []
-
-      if (variant === "1") {
-        sources = generateImagePaths()
-      } else if (variant === "2" && imagesArray.length > 0) {
-        sources = imagesArray
-      }
-
-      const checks = await Promise.all(sources.map(checkImageExists))
-      const filtered = checks.filter(src => src !== null)
-      const shuffled = filtered.sort(() => 0.5 - Math.random())
-
-      if (isMounted) {
-        setValidImages(shuffled)
-      }
+    const validateImages = async () => {
+      const results = await Promise.all(imagesArray.map(checkImageExists))
+      const valid = results.filter(img => img !== null)
+      const shuffled = valid.sort(() => 0.5 - Math.random())
+      setFixedImages(shuffled)
     }
 
-    loadImages()
+    validateImages()
+  }, [imagesArray])
 
-    return () => {
-      isMounted = false
-    }
-  }, [variant, imagesArray])
-
-  // Questo gestisce l'animazione frame-by-frame senza flicker
   useAnimationFrame(() => {
     setOffsetX(prev => {
-      const totalWidth = validImages.length * (window.innerWidth * 0.8 + 32) // 80vw + 2 * 16px margin
+      const totalWidth = fixedImages.length * (window.innerWidth * 0.8 + 32)
       const next = prev - speed
       return next <= -totalWidth ? 0 : next
     })
   })
 
-  if (validImages.length === 0) return null
+  if (fixedImages.length === 0) return null
 
-  // Duplico una sola volta per creare il loop visivo
-  const imagesToRender = [...validImages, ...validImages]
+  const imagesToRender = [...fixedImages, ...fixedImages]
 
   return (
     <div className="overflow-hidden py-16 bg-white">

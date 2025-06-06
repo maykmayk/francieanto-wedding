@@ -81,7 +81,7 @@ const Registry = () => {
               variants={fadeIn}
               className="mt-6"
             >
-              <p className="text-charcoal-light mb-4">
+              <p className="text-charcoal-light mb-12">
                 In alternativa, se desiderate contribuire all’acquisto di elettrodomestici o arredi più ingombranti, vi lasciamo qui sotto l’Iban a cui poter effettuare un bonifico. Grazie di cuore!! 🏠
               </p>
               <div className="bg-cream p-4 rounded-md inline-block text-center">
