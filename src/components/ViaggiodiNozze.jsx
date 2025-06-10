@@ -58,7 +58,10 @@ export default function ViaggiodiNozze() {
                         Scherziamo, un po’ di onde ci sono, vabbè! 🌊
                     </p>
                     <p className="text-charcoal-light mb-6 max-w-2xl mx-auto">
-                        Ci attendono giornate all’insegna dell’esplorazione tra acque cristalline e foreste tropicali, alla scoperta di animali rari e sapori inediti. Oltre a ricercare l’autenticità della cultura zanzibarina, non ci faremo certo mancare momenti di meritato relax! 🏖
+                        Ci attendono giornate all’insegna dell’esplorazione tra acque cristalline e foreste tropicali, alla scoperta di animali rari e sapori inediti. Oltre a ricercare l’autenticità della cultura zanzibarina, non ci faremo certo mancare momenti di meritato relax!
+                    </p>
+                    <p className="text-charcoal-light mb-6 max-w-2xl mx-auto">
+                        Se desiderate accompagnarci simbolicamente in questo viaggio, potete contribuire effettuando un bonifico all’IBAN qui sotto. Grazie, davvero!! 🏖️
                     </p>
                     <div className="bg-cream p-4 mt-8 rounded-md inline-block text-center">
                         <p className="">Intestatario: Antonio Scaglioni</p>

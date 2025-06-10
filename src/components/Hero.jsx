@@ -8,7 +8,7 @@ const Hero = () => {
   const [minutes, setMinutes] = useState(0)
   const [seconds, setSeconds] = useState(0)
 
-  const weddingDate = new Date('2025-10-04T10:00:00')
+  const weddingDate = new Date('2025-10-04T11:00:00')
 
   useEffect(() => {
     const interval = setInterval(() => {
