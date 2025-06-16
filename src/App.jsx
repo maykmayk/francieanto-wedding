@@ -33,7 +33,7 @@ function App() {
         <Hero />
         <Citazione />
         <Ceremony />
-        <Ricevimento />
+        {/* <Ricevimento /> */}
         <About />
         {/* <Timeline /> */}
         {/* <Gallery /> */}

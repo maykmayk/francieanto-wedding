@@ -26,11 +26,11 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Cerimonia', target: 'ceremony' },
-    { name: 'Ricevimento', target: 'ricevimento' },
+    // { name: 'Ricevimento', target: 'ricevimento' },
     { name: 'La Nostra Storia', target: 'about' },
     { name: 'Lista Nozze', target: 'lista' },
     { name: 'Viaggio di Nozze', target: 'viaggio' },
-    { name: 'RSVP', target: 'rsvp' }
+    // { name: 'RSVP', target: 'rsvp' }
   ]
 
   const toggleMobileMenu = () => {

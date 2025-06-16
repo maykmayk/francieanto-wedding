@@ -34,7 +34,7 @@ const Rsvp = () => {
           variants={fadeIn}
           className="max-w-3xl mx-auto"
         >
-          <h2 className="text-4xl md:text-5xl font-custom mb-4 text-center text-charcoal">
+          {/* <h2 className="text-4xl md:text-5xl font-custom mb-4 text-center text-charcoal">
             RSVP
           </h2>
 
@@ -55,7 +55,7 @@ const Rsvp = () => {
             >
               Compila il modulo
             </a>
-          </button>
+          </button> */}
           <p className="text-center text-charcoal-light max-w-2xl mx-auto">
             Vi aspettiamo e non vediamo l’ora!! 🤍
           </p>
