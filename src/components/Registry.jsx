@@ -44,7 +44,7 @@ const Registry = () => {
     }
   }
   return (
-    <section id="lista" className="section bg-sage bg-opacity-10">
+    <section id="lista" className="section bg-white">
       <div className="container">
         <motion.div
           ref={ref}

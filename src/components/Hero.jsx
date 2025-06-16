@@ -80,7 +80,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <Link
+          {/* <Link
             to="rsvp"
             spy={true}
             smooth={true}
@@ -88,7 +88,7 @@ const Hero = () => {
             className="btn btn-primary text-sm md:text-base cursor-pointer"
           >
             Conferma la tua presenza
-          </Link>
+          </Link> */}
         </motion.div>
       </div>
     </section>

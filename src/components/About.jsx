@@ -31,7 +31,7 @@ const About = () => {
   const galleryImages = Array.from({ length: 52 }, (_, i) => `/gallery/gallery_${i + 1}.jpeg`)
 
   return (
-    <section id="about" className="section bg-white noPb">
+    <section id="about" className="section bg-sage bg-opacity-10 noPb">
       <div className="container">
         <motion.div
           ref={ref}
@@ -64,7 +64,8 @@ const About = () => {
 
       </div>
 
-      <InfiniteCarousel imagesArray={galleryImages} />    </section>
+      <InfiniteCarousel imagesArray={galleryImages} />    
+      </section>
   )
 }
 

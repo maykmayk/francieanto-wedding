@@ -43,7 +43,7 @@ const InfiniteCarousel = ({ imagesArray }) => {
   const imagesToRender = [...fixedImages, ...fixedImages]
 
   return (
-    <div className="overflow-hidden py-16 bg-white">
+    <div className="overflow-hidden py-16">
       <div className="flex overflow-x-auto scrollbar-hide touch-pan-x noScrollBar" ref={containerRef}>
         <motion.div
           className="flex noScrollBar"
